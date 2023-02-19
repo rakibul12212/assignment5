@@ -38,12 +38,12 @@
                 <img src="images/triangle.png" alt="" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="card-title">Triangle</h2>
+                <h2 class="card-title" id="first-name">Triangle</h2>
                 <p>Area(A)= 0.5 X b X h</p>
-                <input type="text" placeholder="b cm" class="input input-bordered w-full max-w-xs" />
-                <input type="text" placeholder="h cm" class="input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="b cm" class="input input-bordered w-full max-w-xs" id="first-input"/>
+                <input type="text" placeholder="h cm" class="input input-bordered w-full max-w-xs" id="second-input"/>
                 <div class="card-actions">
-                  <button class="btn btn-primary">Calculate</button>
+                  <button class="btn btn-primary" id="first-card">Calculate</button>
                 </div>
               </div>
             </div>
@@ -141,34 +141,28 @@
 
             
           </div>
-          <div class="card-details bg-red-700 w-[25%] mx-auto mt-5">
+          <div class="card-details w-full md:w-[25%] lg:w-[25%] mx-auto mt-5">
             <h3 class="text-3xl text-center underline">Calculate area</h3>
             <div class="overflow-x-auto">
               <table class="table w-full">
                 <!-- head -->
                 <thead>
                   <tr>
-                    <th></th>
+                    <th>no</th>
                     <th>Name</th>
-                    <th>Job</th>
-                    <th>Favorite Color</th>
+                    <th>Area cm<sup>2</sup></th>
+                    <th>m<sup>2</sup></th>
                   </tr>
                 </thead>
-                <tbody>
-                  <!-- row 1 -->
+                <tbody id="table-container">
+                  <!-- row 1
                   <tr>
                     <th>1</th>
                     <td>Cy Ganderton</td>
                     <td>Quality Control Specialist</td>
                     <td>Blue</td>
-                  </tr>
-                  <!-- row 2 -->
-                  <tr>
-                    <th>2</th>
-                    <td>Hart Hagerty</td>
-                    <td>Desktop Support Technician</td>
-                    <td>Purple</td>
-                  </tr>
+                  </tr> -->
+                  
                   
                  
                 </tbody>
@@ -177,6 +171,7 @@
           </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
 
