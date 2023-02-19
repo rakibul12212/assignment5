@@ -8,6 +8,7 @@
     <title>geometry Genius</title> 
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha384-CibE6G5D5YFJg78meoqWq3X9H9Z47zktvIStajjW8uM/V2SLyfzGGNhDTv7PbEa5" crossorigin="anonymous">
 </head>
 
 <body>
@@ -34,13 +35,14 @@
     <main>
         <section class="lg:px-12 flex flex-col md:flex-row lg:flex-row">
           <div class="product-section mt-10 w-[70%]  grid md:grid-cols-2 lg:grid-cols-3 gap-4 p-5">
-            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover">
+            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-one">
               <figure class="px-10 pt-10">
                 <img src="images/triangle.png" alt="" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title" id="first-name">Triangle</h2>
-                <p>Area(A)= 0.5 X b X h</p>
+                <p>Area(A)= 0.5 X b X h <i class='fas fa-edit'></i></p>
+                <i class='fa fa-edit'></i>
                 <input type="text" placeholder="b cm" class="input input-bordered w-full max-w-xs" id="first-input"/>
                 <input type="text" placeholder="h cm" class="input input-bordered w-full max-w-xs" id="second-input"/>
                 <div class="card-actions">
@@ -52,13 +54,13 @@
 
 
 
-            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-one">
+            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-two">
               <figure class="px-10 pt-10">
                 <img src="images/rectangle.png" alt="" class="rounded-xl" />
               </figure>
               <div class="card-body items-center text-center">
                 <h2 class="card-title" id="second-name">Rectangle</h2>
-                <p>Area(A)= w X l</p>
+                <p>Area(A)= w x l</p>
                 <input type="text" placeholder="w cm" class="input input-bordered w-full max-w-xs" id="third-input"/>
                 <input type="text" placeholder="l cm" class="input input-bordered w-full max-w-xs" id="fourth-input"/>
                 <div class="card-actions">
@@ -70,7 +72,7 @@
 
 
 
-            <div class="card w-120 h-200 bg-base-100 shadow-xl">
+            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-three">
               <figure class="px-10 pt-10">
                 <img src="images/parallelogram.png" alt="Shoes" class="rounded-xl" />
               </figure>
@@ -88,7 +90,7 @@
 
 
 
-            <div class="card w-120 h-200 bg-base-100 shadow-xl">
+            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-four">
               <figure class="px-10 pt-10">
                 <img src="images/rhombus.png" alt="Shoes" class="rounded-xl" />
               </figure>
@@ -106,7 +108,7 @@
 
 
 
-            <div class="card w-120 h-200 bg-base-100 shadow-xl">
+            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-five">
               <figure class="px-10 pt-10">
                 <img src="images/pentagon.png" alt="Shoes" class="rounded-xl" />
               </figure>
@@ -124,7 +126,7 @@
 
 
 
-            <div class="card w-120 h-200 bg-base-100 shadow-xl">
+            <div class="card w-120 h-200 bg-base-100 shadow-xl" id="hover-six">
               <figure class="px-10 pt-10">
                 <img src="images/ellipse.png" alt="Shoes" class="rounded-xl" />
               </figure>

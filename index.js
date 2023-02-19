@@ -3,11 +3,43 @@ document.getElementById("blog").addEventListener("click", function(){
     window.location.href = 'http://127.0.0.1:5500/blog.html'
 })
 //random hover colour
-const backgroundHover = document.getElementById("hover");
-hover.addEventListener("mouseover", function() {
+const backgroundHoverOne = document.getElementById("hover-one");
+backgroundHoverOne.addEventListener("mouseover", function() {
   const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
   this.style.backgroundColor = randomColor;
 });
+
+const backgroundHoverTwo = document.getElementById("hover-two");
+backgroundHoverTwo.addEventListener("mouseover", function() {
+  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  this.style.backgroundColor = randomColor;
+});
+
+const backgroundHoverThree = document.getElementById("hover-three");
+backgroundHoverThree.addEventListener("mouseover", function() {
+  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  this.style.backgroundColor = randomColor;
+});
+
+const backgroundHoverFour = document.getElementById("hover-four");
+backgroundHoverFour.addEventListener("mouseover", function() {
+  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  this.style.backgroundColor = randomColor;
+});
+
+const backgroundHoverFive = document.getElementById("hover-five");
+backgroundHoverFive.addEventListener("mouseover", function() {
+  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  this.style.backgroundColor = randomColor;
+});
+
+const backgroundHoverSix = document.getElementById("hover-six");
+backgroundHoverSix.addEventListener("mouseover", function() {
+  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
+  this.style.backgroundColor = randomColor;
+});
+
+
 
 
 
@@ -24,6 +56,11 @@ serial =+ 1;
 const firstComponantName = document.getElementById("first-name").innerText;
 //console.log(componantName);
 const firstInput = document.getElementById("first-input").value;
+
+
+
+
+
 //console.log(firstInput)
 const secondInput = document.getElementById("second-input").value;
 //console.log(componantName,firstInput,secondInput)
