@@ -3,20 +3,52 @@ document.getElementById("first-card").addEventListener("click", function() {
 //console.log("clicked");
 
 //get data from html
-const componantName = document.getElementById("first-name").innerText;
+const firstComponantName = document.getElementById("first-name").innerText;
 //console.log(componantName);
 const firstInput = document.getElementById("first-input").value;
 //console.log(firstInput)
 const secondInput = document.getElementById("second-input").value;
 //console.log(componantName,firstInput,secondInput)
-const area = 0.5 * parseFloat(firstInput) * parseFloat(secondInput)
+const areaOne = 0.5 * parseFloat(firstInput) * parseFloat(secondInput)
 const convart = (area) / 10000
 
-console.log(componantName,firstInput,secondInput,area,convart);
+console.log(firstComponantName,firstInput,secondInput,areaOne,convart);
 
-displaydata(componantName,area,convart);
+displaydata(firstComponantName,areaOne,convart);
+});
+
+// ...........................
+
+
+document.getElementById("second-card").addEventListener("click", function(e){
+//console.log(e.target);
+const secondComponantName = document.getElementById("second-name").innerText;
+console.log(secondComponantName)
+ const thirdInput = document.getElementById("third-input").value;
+ console.log(thirdInput)
+ const fourthInput = document.getElementById("fourth-input").value;
+ console.log(fourthInput)
+
+ const areaTwo = parseFloat(thirdInput) * parseFloat(fourthInput)
+ const convart = (areaTwo) / 10000
+
+ console.log(secondComponantName,thirdInput,thirdInput,areaTwo,convart);
+ displaydata(secondComponantName,areaTwo,convart);
+
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
 //common function to display data
 function displaydata(componantName,area,convart){
     //table show the data
