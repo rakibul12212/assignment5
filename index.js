@@ -1,3 +1,7 @@
+document.getElementById("blog").addEventListener("click", function(){
+    window.location.href = 'http://127.0.0.1:5500/blog.html'
+})
+
 //first card button click
 document.getElementById("first-card").addEventListener("click", function() {
 //console.log("clicked");
@@ -10,7 +14,7 @@ const firstInput = document.getElementById("first-input").value;
 const secondInput = document.getElementById("second-input").value;
 //console.log(componantName,firstInput,secondInput)
 const areaOne = 0.5 * parseFloat(firstInput) * parseFloat(secondInput)
-const convart = (area) / 10000
+const convart = (areaOne) / 10000
 
 console.log(firstComponantName,firstInput,secondInput,areaOne,convart);
 
