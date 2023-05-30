@@ -1,46 +1,7 @@
 //2 html add
 document.getElementById("blog").addEventListener("click", function(){
-    window.location.href = 'http://127.0.0.1:5500/blog.html'
+    window.location.href = 'file:///E:/assignment5-main/blog.html'
 })
-//random hover colour
-const backgroundHoverOne = document.getElementById("hover-one");
-backgroundHoverOne.addEventListener("mouseover", function() {
-  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-  this.style.backgroundColor = randomColor;
-});
-
-const backgroundHoverTwo = document.getElementById("hover-two");
-backgroundHoverTwo.addEventListener("mouseover", function() {
-  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-  this.style.backgroundColor = randomColor;
-});
-
-const backgroundHoverThree = document.getElementById("hover-three");
-backgroundHoverThree.addEventListener("mouseover", function() {
-  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-  this.style.backgroundColor = randomColor;
-});
-
-const backgroundHoverFour = document.getElementById("hover-four");
-backgroundHoverFour.addEventListener("mouseover", function() {
-  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-  this.style.backgroundColor = randomColor;
-});
-
-const backgroundHoverFive = document.getElementById("hover-five");
-backgroundHoverFive.addEventListener("mouseover", function() {
-  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-  this.style.backgroundColor = randomColor;
-});
-
-const backgroundHoverSix = document.getElementById("hover-six");
-backgroundHoverSix.addEventListener("mouseover", function() {
-  const randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
-  this.style.backgroundColor = randomColor;
-});
-
-
-
 
 
 
@@ -77,7 +38,7 @@ const firstComponantName = document.getElementById("first-name").innerText;
 //console.log(componantName,firstInput,secondInput)
 const areaOne = 0.5 * parseFloat(firstInput) * parseFloat(secondInput)
 const firstTwoDecimel = areaOne.toFixed(2)
-const Convart = (areaOne) / 10000
+const Convart = (areaOne) / 100
 
 console.log(firstComponantName,firstInput,secondInput,firstTwoDecimel,Convart);
 
@@ -109,7 +70,7 @@ console.log(secondComponantName)
 
  const areaTwo = parseFloat(thirdInput) * parseFloat(fourthInput)
  const twoDecimel = areaTwo.toFixed(2)
- const convart = (areaTwo) / 10000
+ const convart = (areaTwo) / 100
  
 
  console.log(secondComponantName,thirdInput,thirdInput,twoDecimel,convart);
